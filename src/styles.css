@@ -1,6 +1,7 @@
 html {
   /*background: url('./assets/background.png') no-repeat center center fixed;*/
   background: url('https://github.com/Thinkful-Ed/js-dev-final-capstone-starter/blob/main/assets/background.png?raw=true') no-repeat center center fixed;
+  background: url('https://img.freepik.com/premium-vector/dense-green-forest-view-banner-flat-cartoon-design-scenery-with-different-types-trees-bushes-plants-path-wildlife-panoramic-woodland-landscape-vector-illustration-web-background_198565-1044.jpg?w=900') no-repeat center center fixed;
   box-sizing: border-box;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -8,13 +9,14 @@ html {
   background-size: cover;
   z-index:0;
   overflow: hidden;
+  text-align: center;
 }
 
 h1 {
   text-align: center;
   font-size: 90px;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
-  color: white;
+  font-family: "Impact", cursive;
+  color: rgb(180, 32, 32);
   -webkit-text-stroke: 2px black;
 }
 
@@ -30,8 +32,13 @@ h2 {
     font-size: 30px;
 }
 
+button{
+  color: yellow;
+  -webkit-text-stroke: 2pb black;
+}
+
 #timer{
-    color: white;
+    color: rgb(241, 210, 71);
 }
 
 .grid {
